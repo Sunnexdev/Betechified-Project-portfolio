@@ -188,15 +188,25 @@
         <div class="contact-section-container">
           <div class="contact-list">
             <form class="contact-form">
-              <input type="text" placeholder="Your Name" required />
-              <input type="email" placeholder="Your Email" required />
-              <input type="text" placeholder="Your Brand" required />
+              <input id="name" type="text" placeholder="Your Name" required />
               <input
+                id="email"
+                type="email"
+                placeholder="Your Email"
+                required
+              />
+              <input id="brand" type="text" placeholder="Your Brand" required />
+              <input
+                id="social-media"
                 type="text"
                 placeholder="Your social media Handle"
                 required
               />
-              <textarea placeholder="Your Message" required></textarea>
+              <textarea
+                id="message"
+                placeholder="Your Message"
+                required
+              ></textarea>
               <button type="submit" class="button">Send Message</button>
             </form>
           </div>
