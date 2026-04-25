@@ -1,9 +1,3 @@
-// const menutoggle = document.querySelector('.menu-toggle');
-// const nav = document.querySelector('.nav-links');
-// menutoggle.addEventListener('click', () => {
-//   nav.classList.toggle('active');
-// });
-
 // NEWLY ADDED CODE IN responsive-nav.html
 function showSidebar() {
   const sidebar = document.querySelector('.sidebar');
@@ -15,7 +9,7 @@ function hideSidebar() {
   sidebar.style.display = 'none';
 }
 
-// FORM ALERT
+// FORM VALIDATION
 const form = document.querySelector('.contact-form');
 
 form.addEventListener('submit', function (e) {
